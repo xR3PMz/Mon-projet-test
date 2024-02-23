@@ -3,6 +3,38 @@ body {
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    div {
+        background: linear-gradient(rgb(173, 251, 203), rgb(251, 251, 173), rgba(237, 152, 167, 0.251), rgba(228, 153, 230, 0.445));
+        border-radius: 20px;
+        width: 65vw;
+        background-position: center;
+        margin-top: 35px;
+        p {
+            text-align: center;
+            color: rgb(44, 43, 40);
+            font-family: "Abel", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+            margin-top: 65px;
+            p1 {
+                text-align: center;
+                color: rgb(44, 43, 40);
+                font-family: "Abel", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 24px;
+            }
+        }
+    }
 }
 
 main {
@@ -61,4 +93,19 @@ main {
     .treport {
         background-image: url("../img/treport.jpg");
     }
+}
+
+footer {
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: auto;
+    height: 55px;
+    background-position: center;
+    div {
+        text-align: right;
+        margin-right: 20px;
+        white-space: nowrap;
+
+    }
+
 }
