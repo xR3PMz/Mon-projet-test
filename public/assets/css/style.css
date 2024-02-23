@@ -5,16 +5,62 @@ body {
     background-repeat: no-repeat;
 }
 
+  
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* centrer sur la largeur du viewport */
     align-content: center;
-    height: 250vh;
+    height: 100%;
+    width: 100%;
     div {
-        border: 3px solid yellow;
+        border: 3px solid color(srgb red green blue); 
+        border-radius: 20px;
         margin: 2em;
-        min-width: 400px;
-        height: 400px;
+        min-width: 300px;
+        width: 20em;
+        height: 40em;  
+        overflow: hidden; /* Cache tout ce qui dépasse du conteneur */
+        background-color: rgb(255, 255, 255); 
+        h3 {
+            margin-top: 15em;
+            text-align: center;
+            color: rgb(44, 43, 40);
+            font-family: "Abel", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 22px;
+        }
+        p {
+            text-align: center;
+            margin: 15px;
+        }
+    }
+
+    .card {
+        background-size: auto 20em;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        overflow: hidden;
+
+    }
+    .wimereux {
+        background-image: url("../img/wimereux.jpg");
+    } 
+    .leportel {
+        background-image: url("../img/leportel.png");
+    }
+    .touquet {
+        background-image: url("../img/touquet.jpg");
+    }
+    .boulogne {
+        background-image: url("../img/boulogne.jpg");
+    }
+    .stvalery {
+        background-image: url("../img/stvalery.jpg");
+    }
+    .treport {
+        background-image: url("../img/treport.jpg");
     }
 }
